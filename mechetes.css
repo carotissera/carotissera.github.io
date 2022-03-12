@@ -1,0 +1,50 @@
+*{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:lightsteelblue;
+}
+p {
+    
+    font-size: xx-large;
+    color:coral;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+
+}
+h1{
+    text-align: center;
+    color:grey;
+}
+table{
+    
+    margin: auto;
+
+}
+th{
+    padding: 10px;
+    
+}
+
+thead{
+    background-color: lightsalmon;
+    
+    
+}
+tbody{
+    background-color: lightgrey;
+    
+}
+
+#CAROLINA {
+    font-style:italic;
+    font-size: 20px;
+    color:darkslategrey;
+    background-color:lightsteelblue;
+    text-align:left;
+
+}
