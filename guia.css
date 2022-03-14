@@ -1,0 +1,106 @@
+header{
+    margin: 0 auto;
+    width: 1000px; 
+}
+.colores , .fuentes, .Estilos{
+    border: 3px solid black;
+    margin: 50px auto;
+    width: 1000px;  
+}
+.Estilos h1 , .Estilos h2, .Estilos p, ul{
+    margin:20px 50px;
+}
+.colores h2 , .fuentes h2{
+    
+    margin: 10px 15px;
+   
+}
+.colores h3{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100px;
+    padding: 10px 100px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.fuente1 , .fuente2, .fuente3{
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px 50px;   
+}
+#fuente1, #fuente2, #fuente3{
+    text-decoration: underline;
+    font-size: xx-large;
+}
+.fuente1{
+    font-family: 'Syne Mono', monospace;
+}
+    
+#fuente11 {
+    font-style: italic;
+    font-size:x-large;
+}
+#fuente12 {
+    text-decoration:underline;
+    font-size: medium;
+}
+#fuente13 {
+    font-weight: bold; 
+    font-size: x-small;
+}
+
+.fuente2{
+    font-family: 'Sansita Swashed', cursive;
+            
+    }
+    
+#fuente21 {
+    font-style: italic;
+    font-size:x-large;
+}
+#fuente22{
+    text-decoration:underline;
+    font-size: medium;
+}
+#fuente23{
+    font-weight: bold; 
+    font-size: x-small;
+}
+.fuente3{
+    font-family: 'Dancing Script', cursive;
+}
+    
+#fuente31 {
+    font-style: italic;
+    font-size:x-large;
+}
+#fuente32{
+    text-decoration:underline;
+    font-size: medium;
+}
+#fuente33{
+    font-weight: bold; 
+    font-size: x-small;
+}
+#Azul{
+    background-color: #2f5dcc;
+    color: white;
+}
+#Beige{
+    background-color: #efd9ca;
+    color: black;  
+}
+#Rosa{
+    background-color:#d957d9;
+    color: black; 
+}
+#Menta{
+    background-color:#4fe0b0;
+    color: black;
+}
+ul{
+    list-style:disc
+}
