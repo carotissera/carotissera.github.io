@@ -44,7 +44,7 @@ body{
     height: 700px;
     width: 1200px;
     margin-top: 69px;
-    background-image: url('./Recursos/img-mission-background.jpg');;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
 }
 #h {
     z-index:3; 
@@ -119,7 +119,7 @@ body{
 .abajo{
     height: 500px;
     margin: 50px;
-    background-image:url('./Recursos/img-locations-background.webp'); ;
+    background-image:url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg') ;
 }
 .abajo h1{
     text-align: center;
