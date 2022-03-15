@@ -118,6 +118,7 @@ body{
 /* ABAjo*/
 .abajo{
     height: 500px;
+    width: 1200px;
     margin: 50px;
     background-image:url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg') ;
 }
