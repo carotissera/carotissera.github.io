@@ -1,0 +1,157 @@
+*{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity:0.9;
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* ENCABEZADO*/
+.encabezado{  
+    position:fixed;
+    top:0;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    z-index:1;
+  
+}
+.encabezado h2{  
+    text-decoration: underline;
+    padding: 0 10px;
+    width: 100px;
+    float: right;
+}
+#logo{
+    margin-left: 10px;
+    height: 50px;
+    float: left; 
+}
+
+/* ARRIBA*/
+
+.arriba{
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 50px;
+    height: 700px;
+    width: 1200px;
+    margin-top: 69px;
+    background-image: url('./Recursos/img-mission-background.jpg');;
+}
+#h {
+    z-index:3; 
+    margin:0;
+    position: relative;
+    top:300px; 
+    padding: 10px;
+    opacity: 1;  
+}
+.arriba h2{
+    font-size: 30px;
+}
+/*
+#cereales{ 
+    margin-top: 69px;
+    flex-direction: column;
+    display: flex;
+    height: 700px;
+    width: 1200px; 
+    z-index:2;
+}¨/
+
+/* MEDIO*/
+
+.medio{
+      display: inline-flex;
+      width: 1000px;
+      justify-content: center;
+      flex-direction: column;
+      }
+#textmedio{
+    width: 1000px;
+    margin: 10px 80px;
+}
+.medio h1{
+    font-size: 30px;
+}
+.reg1 {
+    display: inline-flex;
+    width: 1000px;
+    margin: 10px 10px;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+    position: relative;
+   left:100px;
+}
+.reg2{
+    display: inline-flex;
+    width: 800px;
+    margin: 10px 10px;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+    position: relative;
+    left:150px;
+
+}
+
+#img1{ 
+    height: 200px;
+    width: 300px;  
+    margin: 0 10px; 
+}
+#img2{
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    
+}
+/* ABAjo*/
+.abajo{
+    height: 500px;
+    margin: 50px;
+    background-image:url('./Recursos/img-locations-background.webp'); ;
+}
+.abajo h1{
+    text-align: center;
+    background-color: transparent;
+    font-size: 40px;
+
+}
+.caja{
+    display: inline-flex;
+    justify-content:space-around;
+    background-color: transparent;
+}
+#c1,#c2,#c3{
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    margin: 15px 20px;
+}
+
+/* PIRE DE PAGINA*/
+.pie{
+    height: 200px;
+}
+#piee{
+    font-size: 30px;
+}
+#contacto{
+    font-size: 20px;
+}
+#copy{
+    margin-left: 20px;
+    float: left;
+}
+
+
